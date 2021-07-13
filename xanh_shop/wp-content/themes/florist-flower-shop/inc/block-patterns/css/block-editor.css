@@ -1,0 +1,112 @@
+/*------ Banner Section ------*/
+.banner-section h1, .product-section h3{
+	font-family: 'Sail', cursive;
+}
+.banner-section h1, .banner-section p{
+	margin-top: 0 !important;
+	margin-bottom: 10px !important;
+}
+.banner-section .wp-block-columns{
+	padding: 0 !important;
+	margin-right: auto !important;
+	margin-left: auto !important;
+}
+.banner-section .wp-block-column:first-child{
+	flex-basis: 53% !important;
+}
+.banner-section.wp-block-cover.has-background-dim:not(.has-background-gradient):before{
+	left: 7%;
+	right: 7%;
+	bottom: 15%;
+}
+.banner-product{
+	position: relative;
+	top: 10em;
+	right: -11px;
+}
+.banner-product .wc-block-grid__product-image{
+	margin: 0;
+	float: left;
+	width: 62%;
+	margin-right: 10px;
+}
+.banner-product li.wc-block-grid__product{
+	background: rgb(255, 255, 255, 0.8);
+	border:0;
+	text-align: left;
+}
+.banner-product li.wc-block-grid__product a, .product-section li.wc-block-grid__product a{
+	text-decoration: none !important;
+}
+.banner-product li.wc-block-grid__product .wc-block-grid__product-title,
+.product-section li.wc-block-grid__product .wc-block-grid__product-title{
+	font-size: 16px;
+	font-weight: 700;
+	color: #333;
+	margin-top: 30px;
+}
+.banner-product li.wc-block-grid__product .wc-block-grid__product-price{
+	color: #000;
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 20px;
+	letter-spacing: 0;
+}
+.banner-product .wc-block-grid__product-onsale{
+	display: none;
+}
+.banner-product li.wc-block-grid__product span.woocommerce-Price-currencySymbol {
+    font-size: 14px;
+}
+.banner-product li.wc-block-grid__product a.wp-block-button__link.add_to_cart_button{
+	border-radius: 30px;
+	font-weight: 600;
+	font-size: 14px;
+	letter-spacing: 0;
+	background: linear-gradient(to right, #9a45ad , #384da6);
+}
+.banner-product li.wc-block-grid__product a.wp-block-button__link.add_to_cart_button:hover, .banner-section .banner-button a.wp-block-button__link:hover{
+	background: #234ea4 !important;
+	color: #fff !important;
+}
+.banner-section .banner-button a.wp-block-button__link{
+	font-size: 12px;
+	font-weight: 600;
+	padding: 10px 30px;
+}
+.banner-section .banner-button a.wp-block-button__link:after{
+	content: '\f30b';
+	font-family: 'Font Awesome 5 Free';
+  	font-weight: 900; 
+  	font-size: 12px;
+  	margin-left: 5px;
+}
+
+/*----- Product Section ---*/
+.product-section li.wc-block-grid__product{
+	text-align: left;
+}
+.product-section li.wc-block-grid__product .wc-block-grid__product-title{
+	margin-top: 0;
+}
+.product-section li.wc-block-grid__product .wc-block-grid__product-onsale{
+	background: linear-gradient(to top, #9a45ad , #384da6);
+	color: #fff;
+	font-size: 11px;
+	border: 0;
+	border-radius: 0;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	padding: 4px 12px;
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 18px;
+    left: 6%;
+}
+.product-section li.wc-block-grid__product .wc-block-grid__product-price{
+	font-size: 14px;
+	font-weight: 700;
+}
+.product-section li.wc-block-grid__product .wc-block-grid__product-price ins{
+	color: #234ea4;
+}

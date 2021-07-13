@@ -1,0 +1,89 @@
+/*
+Theme Name: Shopping Plus
+Author: ceylonthemes
+Author URI: https://www.ceylonthemes.com
+Version: 1.1.0
+Template: ecommerce-star
+Tested up to: 5.6.1
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Description:Shopping Plus is a responsive and fully customizable template. Shopping Plus theme can be used to develop business, WooCommerce or Easy Digital download shopping cart, Store front, Portfolio and others web sites. Shopping Plus has Options like WooCommerce integration, Header & footer Customization, Hero content, Typography features. Also, Theme is compatible with YITH WooCommerce Wishlist, YITH WooCommerce Compare, WooCommerce Variation Swatches and other popular plugins. For more information about Shopping Plus please go to https://www.ceylonthemes.com/product/wordpress-storefront-theme
+Text Domain: shopping-plus
+Tags: e-commerce, blog, theme-options, full-width-template, one-column, two-columns, portfolio, left-sidebar, right-sidebar, flexible-header, custom-header, custom-menu, custom-logo, featured-images, footer-widgets, sticky-post, threaded-comments, translation-ready
+*/
+
+#secondary .widget-title {
+	font-size: 18px;
+	line-height: 40px;
+	font-weight: 600;
+	margin: 0;
+	padding: 0 8px 0 15px;
+	position: relative;
+	text-transform: uppercase;
+	width: auto;
+	height: 40px;
+	display: inline-block;
+	background-color: #d60202;
+	color: white;
+	border-bottom: 0px;
+}
+
+#secondary .widget-title:before {
+    width: 0;
+    position: absolute;
+    right: -30px;
+    top: 0px;
+    height: 0;
+    border-style: solid;
+    border-width: 40px 0 0px 30px;
+    content: "";
+	border-color: transparent transparent transparent #d60202;
+}
+
+.wp-calendar-table {
+	width:100%;
+}
+.widget .adv-recent-posts a img {
+	max-width:120px;
+}
+
+#secondary.woocomemrce-widgets .widget-title {
+    margin-bottom: 10px;
+}
+
+#secondary .widget {
+    padding: 0px 15px 15px 10px;
+    border: 1px solid #DBDBDB;
+}
+
+#secondary.woocomemrce-widgets .widget-title {
+    border-bottom: initial;
+    line-height: 18px;
+}
+
+#secondary.woocomemrce-widgets .woocommerce.widget_product_search {
+	padding-top:15px;
+}
+
+#secondary .widget ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 5px;
+}
+
+#secondary .widget_search {
+	border:0px;
+}
+
+.my-yith-wishlist .yith-wcwl-add-button .add_to_wishlist::before {
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #e6e6e696;
+}
+
+.entry-summary p a.more-link {
+	box-shadow:initial;
+	border: 1px solid #DF0000;
+	border-radius: 24px;
+}
